@@ -1,0 +1,18 @@
+body{
+  background-color :#232020; 
+  color : #f4f4f4;
+  text-align: center ;
+}
+h2{
+  
+  border-style:dashed ;
+  color:#ff7315 ; 
+}
+a{
+  
+  border-style:solid ;
+  box-shadow : 0 4px 20px #ff7315;
+  border-radius : 70px;
+  margin : 10 ;
+   color: #f4f4f4
+}

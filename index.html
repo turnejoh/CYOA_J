@@ -1,0 +1,67 @@
+<!--
+CHOOSE-YOUR-OWN-ADVENTURE
+
+You will create your own CYOA. If you are unsure of what a CYOA is, check out this link: https://chooseyourstory.com/
+
+There are only a few requirements:
+* must use radio buttons, checkboxes and text input, at least one of each
+* must have at least 10 choices the user must make
+* must have functions
+* must have If-statements
+* must have complete CSS and HTML
+* must be uploaded to Github and included on your profile page
+
+You may design the program however you see. I want to see how you put the pieces together. We have done ALOT of exercises and notes on various techniques for designing programs and using functions. Time for you to put it all together on your own. 
+
+This work is a culmination of everything we have done in the class this semester. Please give me your best ORIGINAL work.
+
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+  
+    <script src="script.js"></script>
+    <script src = "Second.Page"></script>
+    
+    <form>
+      <h2> Please select your Ethnicity : (choose the most that apply)</h2>
+      <input type = "checkbox" id = "checkClass1"> white <br>
+      <input type = "checkbox" id = "checkClass2">black <br>
+      <input type = "checkbox" id = "checkClass3">latino <br>
+      <input type = "checkbox" id = "checkClass4"> asian <br>
+      <input type = "checkbox" id = "checkClass5"> other <br>
+ 
+      <h2> Please select you Age :</h2>
+      <input type = "radio" name = "yourAge" id = "radioAge1">
+      <label for = " radioAge1"> 8-12 </label><br>
+      <input type = "radio" name = "yourAge" id = "radioAge2">
+      <label for = " radioAge2"> 13-18 </label><br>
+      <input type = "radio" name = "yourAge" id = "radioAge3">
+      <label for = " radioAge3"> 19 and up </label><br>
+     
+      <h2> Please select your shoe size:</h2>
+      <input type = "radio" name = "getTheSize" id = "radioAge5">
+      <label for = "radioAge5">  2-4 </label><br>
+      <input type = "radio" name = "getTheSize" id = "radioAge6">
+      <label for = "radioAge6" > 5-7</label><br>
+      <input type = "radio" name = "getTheSize" id = "radioAge7">
+      <label for = "radioAge7"> 8-10</label> <br>
+      <input type = "radio" name = "getTheSize" id = "radioAge8">
+      <label for = "radioAge8" > 14-18 </label> <br>
+
+      <input type = "button" onclick="Run()" value = "sumbit">
+      <br>
+ 
+    <div id = "output"></div>
+    <br>
+    <a href = " Second.Page" > Click me  </a> 
+    </form> 
+  </body>
+</html>
